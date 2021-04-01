@@ -1,40 +1,58 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://cv.peti.work/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Peter Gates',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Peter Gates | Data Scientist`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Graduate student seeking a data scientist position in the biomedical and health fields.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/pomkos`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/peter-gates-430807191/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Modeling outcomes for Dr. Ridgel's dynamic bike using previously collected data.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Dance Entropy Calculator',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Calculates the entropies from raw output of a Noraxon recording in JupyterLab.',
+        link: 'https://github.com/pomkos/dancing',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Dynamic Bike Extractor',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Converts raw output files to a format that can be read by a Matlab entropy script.',
+        link: 'https://github.com/pomkos/biking',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Tremor Entropy Calculator',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          "Calculates the entropies from raw output of a Parkinson's tremor device, with GUI.",
+        link: 'https://github.com/pomkos/entropy_tremor',
+      },
+      {
+        name: 'Twitch Chat Analyzer',
+        description:
+          "Algorithm building to analyze the chat record of Twitch streams, for Pillar.",
+        link: 'https://github.com/pomkos/twitch_chat_analysis',
+      },
+      {
+        name: 'Venmo Requester',
+        description:
+          "Automatically splits bills from DoorDash, UberEats receipts or custom input.",
+        link: 'https://github.com/pomkos/payme',
+      },
+      {
+        name: 'Covid Dash',
+        description:
+          "Tracks covid numbers worldwide, and allows for users to create their own charts using the latest data.",
+        link: 'https://github.com/pomkos/covid_dash',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -58,18 +76,13 @@ module.exports = {
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Languages & Packages',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python, R, scikit, statsmodels, pandas, tidyverse',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
-      },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        description: 'SQLite, PostreSQL, MySQL',
       },
     ],
   },
